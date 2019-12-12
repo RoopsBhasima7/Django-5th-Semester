@@ -1,5 +1,14 @@
-{%extends 'base.html'%}
-    {%block content%}
-    Where Superman cannot reaches,there reaches Hanuman.
+{% extends 'base.html' %}
+    {% block content %}
+    <form action="add" method="GET">
+        First Number:<br>
+        <input type="text" name="num1">
+        <br>
+        Last Number:<br>
+        <input type="text" name="num2">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    
     {%endblock%}
     {{name}}

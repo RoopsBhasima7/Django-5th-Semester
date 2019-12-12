@@ -17,5 +17,6 @@ from django.urls import path,include
 from . import views
 
 urlpatterns = [
-    path('college/',views.home,name='home'),
+    path('',views.home,name='home'),
+    path('add/', views.result, name='add'),
 ]
